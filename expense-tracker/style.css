@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+body {
+  background: linear-gradient(to bottom, #1b3d1f 0%, #4caf50 40%, #7cb342 70%, #558b2f 100%);
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  min-height: 100vh;
+}
+
+.container {
+  background: #1a1a1a;
+  width: 100%;
+  max-width: 400px; font-weight: bold;
+  padding: 8px 10px;
+  margin-top: 15px;
+  border-radius: 5px;
+}
+.tagline {
+  text-align: center;
+  font-style: italic;
+  color: #cccccc;
+  margin-bottom: 15px;
+  font-size: 14px;
+  }
